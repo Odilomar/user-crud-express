@@ -1,0 +1,12 @@
+{
+  "name": "user-crud-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Odilomar/user-crud-express.git",
+  "author": "Odilomar Júnior <odilomar.junior@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  }
+}
