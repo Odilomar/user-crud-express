@@ -6,7 +6,15 @@
   "author": "Odilomar Júnior <odilomar.junior@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start:dev": "nodemon src/server.js",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3"
   }
 }
