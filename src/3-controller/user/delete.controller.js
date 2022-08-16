@@ -1,3 +1,3 @@
-const DeleteUserController = async ({ id }) => {
+module.exports = async ({ id }) => {
     return "DELETE USER not implemented!";
 }
