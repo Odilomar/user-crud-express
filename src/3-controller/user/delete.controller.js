@@ -1,3 +1,5 @@
+const { deleteUser: deleteUserUseCase } = require('../../2-business/usecase/user')
+
 module.exports = async ({ id }) => {
-    return "DELETE USER not implemented!";
+    return deleteUserUseCase(id);
 }

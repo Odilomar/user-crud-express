@@ -1,3 +1,5 @@
+const { createUser: createUserUseCase } = require('../../2-business/usecase/user')
+
 module.exports = async (user) => {
-    return "CREATE USER not implemented!";
+    return createUserUseCase(user);
 }
